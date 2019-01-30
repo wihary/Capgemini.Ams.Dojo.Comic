@@ -1,1 +1,1 @@
-# Capgemini.Ams.Dojo.Comic
+# dotnet.CodingDojo

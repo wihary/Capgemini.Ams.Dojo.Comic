@@ -1,0 +1,12 @@
+
+bin/Debug/
+
+obj/
+
+Slides/~\$codingDojo-dotnet\.pptx
+
+\.vs/
+
+bin/
+
+*.user
