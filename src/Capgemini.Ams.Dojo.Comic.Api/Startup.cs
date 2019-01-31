@@ -35,6 +35,10 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddBusiness();
+
+            // Ajout du service en charge de la gestion du cache
+            services.AddResponseCaching();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -49,6 +53,17 @@
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
+
+            // Ajout de la redirection HTTPS automatique
+            app.UseHttpsRedirection();
+
+            // Ajout du middleware responsable de la gestion du cache dans le pipeline d'execution
+            app.UseResponseCaching();
 
             app.UseMvc();
         }

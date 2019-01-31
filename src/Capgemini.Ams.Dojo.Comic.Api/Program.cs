@@ -31,6 +31,13 @@ namespace Capgemini.Ams.Dojo.Comic.Api
         /// <returns></returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseConfiguration(new ConfigurationBuilder()
+                    .AddCommandLine(args)
+                    .Build())
+                .UseStartup<Startup>()
+                .ConfigureKestrel((context, options) =>
+                {
+                    // Set properties and call methods on options
+                });
     }
 }
