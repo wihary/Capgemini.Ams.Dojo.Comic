@@ -39,6 +39,13 @@
             // Ajout du service en charge de la gestion du cache
             services.AddResponseCaching();
 
+            // Ajout du service pour la gestion des appels CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigin",
+                    builder => builder.WithOrigins("http://*"));
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -58,6 +65,9 @@
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            // Shows UseCors with named policy.
+            app.UseCors("AllowAllOrigin");
 
             // Ajout de la redirection HTTPS automatique
             app.UseHttpsRedirection();

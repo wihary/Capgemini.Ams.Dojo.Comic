@@ -4,7 +4,7 @@ namespace Capgemini.Ams.Dojo.Comic.Api.Controllers
     using System.Threading.Tasks;
 
     using Capgemini.Ams.Dojo.Comic.Business;
-
+    using Microsoft.AspNetCore.Cors;
     using Microsoft.AspNetCore.Mvc;
 
     /*
@@ -42,6 +42,7 @@ namespace Capgemini.Ams.Dojo.Comic.Api.Controllers
         /// <returns>returns une collection de <see cref="Model.ComicBook"/></returns>
         [HttpGet]
         [ResponseCache(VaryByHeader = "User-Agent", Duration = 30)]
+        [EnableCors("AllowAllOrigin")]
         public async Task<IActionResult> GetByTitle([FromQuery]string title)
         {
             /*
