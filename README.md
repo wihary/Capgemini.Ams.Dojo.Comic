@@ -24,9 +24,9 @@ Dans cette première partie, nous allons créer un premier projet .net Core, le 
     * Créer un dossier 'Capgemini.Ams.Dojo.Comic' puis un autre à l'intérieur nommé 'src'
     * Ouvrir une console (powershell ou cmd) dans le dossier 'src'
     * Ecrire la commande suivante
-    > dotnet new webapi -n Capgemini.Ams.Dojo.Donet.Api
+    > dotnet new webapi -n Capgemini.Ams.Dojo.Donet.Comic.Api
     * Démarer le projet avec la commande suivante
-    > dotnet run --project .\Capgemini.Ams.Dojo.Donet.Api\Capgemini.Ams.Dojo.Donet.Api.csproj
+    > dotnet run --project .\Capgemini.Ams.Dojo.Donet.Comic.Api\Capgemini.Ams.Dojo.Donet.Comic.Api.csproj
 
 2. Explorer l'API
 
