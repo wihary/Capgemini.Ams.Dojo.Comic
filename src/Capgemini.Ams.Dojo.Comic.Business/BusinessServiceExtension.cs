@@ -4,6 +4,8 @@ using System.Text;
 
 namespace Capgemini.Ams.Dojo.Comic.Business
 {
+    using Capgemini.Ams.Dojo.Comic.Connectors;
+
     using Microsoft.Extensions.DependencyInjection;
 
     /// <summary>
@@ -20,6 +22,9 @@ namespace Capgemini.Ams.Dojo.Comic.Business
         /// <param name="services">Collection contenant la description de l'ensemble des services disponible pour l'application</param>
         /// <returns>retourne la collection des services <see cref="IServiceCollection"/></returns>
         public static IServiceCollection AddBusiness(this IServiceCollection services)
-            => services.AddTransient<ComicBookLogic>();
+            => services.AddTransient<ComicBookLogic>()
+                        .AddTransient<SerieLogic>()
+                        .AddTransient<ComicAuthorLogic>()
+                        .AddConnectors();
     }
 }

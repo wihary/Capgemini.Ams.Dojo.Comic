@@ -31,6 +31,7 @@ namespace Capgemini.Ams.Dojo.Comic.Api
         /// <returns></returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+
                 .UseStartup<Startup>();
     }
 }
