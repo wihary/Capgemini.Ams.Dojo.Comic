@@ -37,6 +37,8 @@ Il existe plusieurs possibilités pour paramétrer le serveur depuis une applica
 > Récupérer la branche 'dojo/kestrel' pour voir comment le paramétrage du serveur est implémenté
 
 > [Documentation : comment paramétrer le serveur Kestrel](https://docs.microsoft.com/fr-fr/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-2.2)
+> [Documentation : HTTPS et redirection](https://docs.microsoft.com/fr-fr/aspnet/core/security/enforcing-ssl?view=aspnetcore-2.2&tabs=visual-studio)
+
 
 ### Implémenter swagger pour la description d'interface
 
