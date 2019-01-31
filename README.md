@@ -53,9 +53,23 @@ Pour tester la documentation swagger de l'API :
 
 > [Documentation : comment swagger avec Swashbuckle](https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2)
 
+### Ajouter du cache dans vos API
+
+Lorsqu'une API permet de servir des données statiques ou qui sont peu amenées à évoluer, il peut être très interessant d'implémenter un système de cache. Le core porpose nativement plusieurs type d'implémentations :
+
+* Client side cache en utilisant le header 'cache-control'
+* Serveur In-Memory cache
+
+> [Documentation : Generalites sur la gestion du cache des reponses](https://docs.microsoft.com/fr-fr/aspnet/core/performance/caching/response?view=aspnetcore-2.2)
+
 ### Comment gérer les Cross Origin Resource Sharing (CORs)
 
-### Ajouter du cache dans vos API
+Il n'est pas rare de devoir gérer des exceptions de sécurité notamment pour l'accès CORs. Le core permet de les gérer via deux paramétrages trsè simple :
+
+* Parametrage d'un middleware et déclaration de policy
+* Ajout d'attribut directement dans les controllers ou endpoints
+
+> [Documentation : Generalites sur la gestion du cache des reponses](https://docs.microsoft.com/fr-fr/aspnet/core/security/cors?view=aspnetcore-2.2)
 
 ### Implémenter un logger
 
