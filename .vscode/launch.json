@@ -21,9 +21,10 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/Capgemini.Ams.Dojo.Donet.Api.dll",
+            "program": "${workspaceFolder}/src/Capgemini.Ams.Dojo.Donet.Comic.Api/bin/Debug/netcoreapp2.2/Capgemini.Ams.Dojo.Donet.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src/Capgemini.Ams.Dojo.Donet.Comic.Api/",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
