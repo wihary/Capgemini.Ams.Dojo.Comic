@@ -8,6 +8,9 @@
   - [Part II : Creation d'un contrôleur](#part-ii--creation-dun-contr%C3%B4leur)
     - [Objectifs](#objectifs-1)
     - [Déroulement](#d%C3%A9roulement-1)
+  - [Part III : Communiquer avec une API externe](#part-iii--communiquer-avec-une-api-externe)
+    - [Objectifs](#objectifs-2)
+    - [Déroulement](#d%C3%A9roulement-2)
 
 ## Présentation de l'architecture cible du DOJO Dotnet
 
@@ -287,3 +290,18 @@ Le Dotnet Core embarque nativement un moteur d'injection de dépendances qui pro
   ```json
   {"id":42,"serieId":0,"serieName":null,"title":"This is a ComicBook title","parutionDate":"2019-03-16T08:54:33.7210113+01:00","issueNumber":0}
   ```
+
+------
+
+## Part III : Communiquer avec une API externe
+
+Dans cette troisième partie nous allons voir comment nous connecter a une API externe comme celle proposée par MARVEL. L'objectif est de pouvoir renvoyer a notre utilisateur des donnees provenant de cette API.
+
+### Objectifs
+
+* Communiquer avec une API en utilisant le composant HTTPClient
+* Transformer un objet d'une source externe vers notre modèle business
+* Transmettre nos arguments de recherche depuis le contrôleur jusqu'a l'API externe
+* Tester les nouveaux appels
+
+### Déroulement
