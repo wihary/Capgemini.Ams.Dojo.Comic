@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF079C0F-AF76-496C-951C-5F81700950D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Donet.Api", "src\Capgemini.Ams.Dojo.Donet.Comic.Api\Capgemini.Ams.Dojo.Donet.Api.csproj", "{09FB058B-FB16-430F-9087-7792E8149EFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Dotnet.Api", "src\Capgemini.Ams.Dojo.Dotnet.Comic.Api\Capgemini.Ams.Dojo.Dotnet.Api.csproj", "{09FB058B-FB16-430F-9087-7792E8149EFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Donet.Comic.Business", "src\Capgemini.Ams.Dojo.Donet.Comic.Business\Capgemini.Ams.Dojo.Donet.Comic.Business.csproj", "{EE769643-F994-4BFD-8887-DA6E07726ABE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Dotnet.Comic.Business", "src\Capgemini.Ams.Dojo.Dotnet.Comic.Business\Capgemini.Ams.Dojo.Dotnet.Comic.Business.csproj", "{EE769643-F994-4BFD-8887-DA6E07726ABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Donet.Comic.Model", "src\Capgemini.Ams.Dojo.Donet.Comic.Model\Capgemini.Ams.Dojo.Donet.Comic.Model.csproj", "{1B1B7A6B-D1C6-4C1F-8615-532A770940D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Dotnet.Comic.Model", "src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\Capgemini.Ams.Dojo.Dotnet.Comic.Model.csproj", "{1B1B7A6B-D1C6-4C1F-8615-532A770940D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Donet.Comic.Connector", "src\Capgemini.Ams.Dojo.Donet.Comic.Connector\Capgemini.Ams.Dojo.Donet.Comic.Connector.csproj", "{4C095656-8621-4319-8E3B-DD1008031B25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.Ams.Dojo.Dotnet.Comic.Connector", "src\Capgemini.Ams.Dojo.Dotnet.Comic.Connector\Capgemini.Ams.Dojo.Dotnet.Comic.Connector.csproj", "{4C095656-8621-4319-8E3B-DD1008031B25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

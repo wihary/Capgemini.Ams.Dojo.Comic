@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capgemini.Ams.Dojo.Dotnet.Comic.Model\Capgemini.Ams.Dojo.Dotnet.Comic.Model.csproj"/>
+    <ProjectReference Include="..\Capgemini.Ams.Dojo.Dotnet.Comic.Business\Capgemini.Ams.Dojo.Dotnet.Comic.Business.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

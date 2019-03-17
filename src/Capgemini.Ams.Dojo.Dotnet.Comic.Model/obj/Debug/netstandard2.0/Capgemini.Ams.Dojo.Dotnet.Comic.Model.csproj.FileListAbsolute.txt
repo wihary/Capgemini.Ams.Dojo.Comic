@@ -1,0 +1,9 @@
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\bin\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.deps.json
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\bin\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.dll
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\bin\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.pdb
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.csprojAssemblyReference.cache
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.csproj.CoreCompileInputs.cache
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.AssemblyInfoInputs.cache
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.AssemblyInfo.cs
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.dll
+W:\GitHub\Capgemini.Ams.Dojo.Comic\src\Capgemini.Ams.Dojo.Dotnet.Comic.Model\obj\Debug\netstandard2.0\Capgemini.Ams.Dojo.Dotnet.Comic.Model.pdb

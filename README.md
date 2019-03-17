@@ -36,9 +36,9 @@ Dans cette première partie, nous allons créer un premier projet .net Core, le 
   * Créer un dossier 'Capgemini.Ams.Dojo.Comic' puis un autre à l'intérieur nommé 'src'
   * Ouvrir une console (powershell ou cmd) dans le dossier 'src'
   * Écrire la commande suivante
-  > dotnet new webapi -n Capgemini.Ams.Dojo.Donet.Comic.Api
+  > dotnet new webapi -n Capgemini.Ams.Dojo.Dotnet.Comic.Api
   * Démarrer le projet avec la commande suivante
-  > dotnet run --project .\Capgemini.Ams.Dojo.Donet.Comic.Api\Capgemini.Ams.Dojo.Donet.Comic.Api.csproj
+  > dotnet run --project .\Capgemini.Ams.Dojo.Dotnet.Comic.Api\Capgemini.Ams.Dojo.Dotnet.Comic.Api.csproj
 
 <strong>2. Explorer l'API</strong>
 
@@ -128,7 +128,7 @@ Dans cette seconde partie nous allons aborder la création d'un contrôleur qui 
 
 > ## Exemple de classe en C#
 > ```csharp
-> namespace Capgemini.Ams.Dojo.Donet.Comic.Model
+> namespace Capgemini.Ams.Dojo.Dotnet.Comic.Model
 >{
 >    using System;
 >
@@ -169,7 +169,7 @@ Les controleurs sont déclarés, par convention, dans le dossier Controllers, da
 * Pour les besoins du Dojo nous allons commencer par créer le controlleur pour la ressource `ComicBook`:
 > ## Exemple de controleur en AspNet Core
 > ```csharp
->namespace Capgemini.Ams.Dojo.Donet.Comic.Api.Controllers
+>namespace Capgemini.Ams.Dojo.Dotnet.Comic.Api.Controllers
 >{
 >    using Microsoft.AspNetCore.Mvc;
 >
@@ -204,12 +204,12 @@ Le Dotnet Core embarque nativement un moteur d'injection de dépendances qui pro
 > * [Principes de l’architecture](https://docs.microsoft.com/fr-fr/dotnet/standard/modern-web-apps-azure-architecture/architectural-principles)
 
 * Pour commencer, nous allons créer une classe dans le projet `Comic.Business` qui va porter la logique métier de traitement derrière la ressource `ComicBook`
-  * Ajouter une nouvelle dans le projet `Capgemini.Ams.Dojo.Donet.Comic.Business`, nommer par exemple `ComicBookLogic`. Elle va contenir une méthode toute simple qui retourne une instance d'un objet `ComicBook`, ce qui peut donner quelque chose comme :
+  * Ajouter une nouvelle dans le projet `Capgemini.Ams.Dojo.Dotnet.Comic.Business`, nommer par exemple `ComicBookLogic`. Elle va contenir une méthode toute simple qui retourne une instance d'un objet `ComicBook`, ce qui peut donner quelque chose comme :
   ```csharp
-  namespace Capgemini.Ams.Dojo.Donet.Comic.Business
+  namespace Capgemini.Ams.Dojo.Dotnet.Comic.Business
   {
       using System;
-      using Capgemini.Ams.Dojo.Donet.Comic.Model;
+      using Capgemini.Ams.Dojo.Dotnet.Comic.Model;
 
       public class ComicBookLogic
       {
@@ -223,9 +223,9 @@ Le Dotnet Core embarque nativement un moteur d'injection de dépendances qui pro
   }
   ```
 * Il faut ensuite déclarer cette classe comme étant un composant disponible dans le moteur d'injection :
-  * La définition ve être portée par [une méthode d'extension](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods), définit dans le projet `Capgemini.Ams.Dojo.Donet.Comic.Business`
+  * La définition ve être portée par [une méthode d'extension](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods), définit dans le projet `Capgemini.Ams.Dojo.Dotnet.Comic.Business`
     >  ```csharp
-    >namespace Capgemini.Ams.Dojo.Donet.Comic.Business
+    >namespace Capgemini.Ams.Dojo.Dotnet.Comic.Business
     >{
     >    using Microsoft.Extensions.DependencyInjection;
     >

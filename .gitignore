@@ -18,3 +18,15 @@ src/Capgemini\.Ams\.Dojo\.Donet\.Comic\.Business/bin/
 src/Capgemini\.Ams\.Dojo\.Donet\.Comic\.Model/bin/
 
 src/Capgemini\.Ams\.Dojo\.Donet\.Comic\.Connector/bin/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Api/bin/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Api/obj/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Business/bin/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Business/obj/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Connector/bin/
+
+src/Capgemini\.Ams\.Dojo\.Dotnet\.Comic\.Connector/obj/

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "w:\\GitHub\\Capgemini.Ams.Dojo.Comic\\src\\Capgemini.Ams.Dojo.Dotnet.Comic.Model\\Capgemini.Ams.Dojo.Dotnet.Comic.Model.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
